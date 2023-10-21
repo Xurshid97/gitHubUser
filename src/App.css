@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.avatar {
+  width: 400px;
+  height: 350px;
+  border: 1px solid black;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px;
+  box-shadow: 0 0 5px black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.form input {
+  padding: 5px;
+}
+
+
